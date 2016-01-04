@@ -51,7 +51,7 @@ const char* THINGSPEAK_API_KEY = "XXX";
 const boolean IS_METRIC = true;
 
 // Update every 600 seconds = 10 minutes. Min with Thingspeak is ~20 seconds
-const int UPDATE_INTERVAL_SECONDS = 20;
+const int UPDATE_INTERVAL_SECONDS = 600;
 
 /***************************
  * End Settings
